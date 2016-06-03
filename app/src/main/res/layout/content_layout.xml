@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/img"
+        style="@style/img_style"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="visible"/>
+
+    <cn.iwgang.familiarrecyclerview.FamiliarRecyclerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/recycler_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:frv_divider="@android:color/transparent"
+        app:frv_dividerHeight="0.5dp"
+        app:frv_layoutManager="linear"
+        android:visibility="visible"
+        />
+
+</LinearLayout>
