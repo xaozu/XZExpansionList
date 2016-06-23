@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         List<ListBean> data=new ArrayList<>();
         List<ItemBean> data_items=new ArrayList<>();
         data_items.add(new ItemBean(1,"长颈鹿的第一个孩子"));
-        data_items.add(new ItemBean(2,"长颈鹿的第二个孩子"));
+        data_items.add(new ItemBean(2,"长颈鹿的第二个孩子！！"));
         data.add(new ListBean(1,"长颈鹿",R.mipmap.img_1,data_items));
         data.add(new ListBean(2,"蓝美人",R.mipmap.img_2,data_items));
         data.add(new ListBean(3,"黄美人",R.mipmap.img_3,data_items));
