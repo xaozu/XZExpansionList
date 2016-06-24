@@ -1,4 +1,4 @@
 # XZExpansionList
-init 可折叠list
+可折叠listItem
 
-![截图](./img.png)
+![截图](./art/img.png)
